@@ -22,6 +22,8 @@ conectam, é meio inútil-->
         <!-- input radio, quando quisermos criar um grupo de opções para que o usuário escolha apenas uma -->
         <!-- o atributo name perecisa ser o msm em tds os atributos, faz que apenas uma seja selecionada -->
         <!-- para escrever em mais de uma linha, segure alt e clique no lugar desejado, clique em esc pra sair -->
+        <!-- value é só para java, n vamos utilizá-lo -->
+        <!-- para criar uma opc que nao pode se selecionar, escreve disabled selected no option -->
         <div>
             <p>Escolha o time que você torce:</p>
 
@@ -37,6 +39,19 @@ conectam, é meio inútil-->
                 <input type="radio" id="bahia" name="time">
                 <label for="bahia">Bahia</label>
             </div>
+        </div>
+
+        <!-- select, grupo que quando clicaco as opcs aparecem em baixo -->
+        <!-- sempre tem que ter options dentro -->
+        <div>
+            <label for="turma">Escolha sua turma:</label>
+            <select name="turma" id="turma">
+                
+                <option disabled selected>Selecione...</option>
+                <option value="01tc">TI01TC</option>
+                <option value="01ta">TI01TA</option>
+                <option value="01tb">TI01TB</option>
+            </select>
         </div>
 
         <button>Enviar</button>
