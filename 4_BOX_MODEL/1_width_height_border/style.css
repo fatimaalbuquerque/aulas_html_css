@@ -1,0 +1,10 @@
+.caixa_width {
+    /* expessura, tipo e cor da borda = width, style e color */
+
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: #f00; */
+
+    /* shorthand = vários valores na msm propriedade*/
+    border: 2px solid #f00;
+}
