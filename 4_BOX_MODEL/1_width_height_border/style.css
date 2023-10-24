@@ -7,4 +7,18 @@
 
     /* shorthand = vários valores na msm propriedade*/
     border: 2px solid #f00;
+
+    width: 50px;
+}
+
+.imagem_width {
+    /* o navegador altera automaticamente a altura para a imagem continuar proporcional */
+    width: 300px;
+}
+
+.caixa_height {
+    border: 3px dashed #0f0;
+    
+    height: 100px;
+    width: 100px;
 }
