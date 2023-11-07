@@ -1,3 +1,12 @@
+
+/* * seleciona tds os elementos */
+* {
+    /* margin é o espaço fora */
+    /* tds os valores de padding tbm serve para margin */
+    margin: 0;
+}
+
+
 div {
     border: 4px dotted #00f;
     /* fit content = faça o conteúdo caber */
@@ -28,4 +37,21 @@ div {
 
     /* padding na vertical */
     padding-block: 20px;
+}
+
+h1 {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimo {
+    margin-top: 50px;
+}
+
+.outro {
+    margin-inline: auto;
 }
